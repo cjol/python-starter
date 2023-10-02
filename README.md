@@ -13,6 +13,9 @@ poetry install
 ## Running the project
 
 ```bash
+# typecheck
+poetry run pyright
+
 # Run the dev entry point
 poetry run dev
 
