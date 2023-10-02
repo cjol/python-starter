@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python_starter"
+version = "0.1.0"
+description = ""
+authors = ["Christopher Little-Savage <cls@powerx.ai>"]
+readme = "README.md"
+packages = [{ include = "python_starter" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dev = 'python_starter:main'
