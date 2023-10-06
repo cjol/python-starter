@@ -1,5 +1,6 @@
-from python_starter import main
 from pytest import CaptureFixture
+
+from python_starter import main
 
 
 def test_myoutput(capsys: CaptureFixture[str]) -> None:  # or use "capfd" for fd-level

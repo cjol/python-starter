@@ -16,9 +16,20 @@ poetry install
 # typecheck
 poetry run pyright
 
+# lint
+poetry run black --check .
+poetry run isort --check .
+
 # Run the dev entry point
 poetry run dev
 
 # or, more fully:
 poetry run python -m python_starter
+
+# run the tests without coverage
+poetry run pytest
+
+# Run the tests and display coverage
+poetry run coverage run -m pytest
+poetry run coverage report --skip-empty -m
 ```
