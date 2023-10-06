@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "python_starter"
+name = "cls_finance"
 version = "0.1.0"
 description = ""
 authors = ["Christopher Little-Savage <cls@powerx.ai>"]
 readme = "README.md"
-packages = [{ include = "python_starter", from = "src" }]
+packages = [{ include = "cls_finance", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -27,7 +27,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-dev = 'python_starter:main'
+dev = 'cls_finance:main'
 
 [tool.isort]
 profile = "black"

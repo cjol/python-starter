@@ -1,4 +1,4 @@
-from python_starter.helper_module import helper_value
+from cls_finance.helper_module import helper_value
 
 
 def test_helper():

@@ -1,7 +1,7 @@
-# python_starter
+# cls_finance
 
 To bootstrap a new project, clone this project and do a global find-and-replace
-for `python_starter` and replace it with your project name.
+for `cls_finance` and replace it with your project name.
 
 ## Setup
 
@@ -24,7 +24,7 @@ poetry run isort --check .
 poetry run dev
 
 # or, more fully:
-poetry run python -m python_starter
+poetry run python -m cls_finance
 
 # run the tests without coverage
 poetry run pytest
