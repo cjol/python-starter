@@ -33,7 +33,7 @@ jobs:
           poetry run isort --check .
 
       - name: Test
-        run: poetry run coverage run -m pytest --junitxml=pytest.xml --cov-report=term-missing:skip-covered --cov=app tests/ | tee pytest-coverage.txt
+        run: poetry run pytest --junitxml=pytest.xml --cov=python_starter tests/ | tee pytest-coverage.txt
 
       - name: Pytest coverage comment
         uses: MishaKav/pytest-coverage-comment@main
