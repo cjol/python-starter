@@ -1,7 +1,8 @@
 # python_starter
 
 To bootstrap a new project, clone this project and do a global find-and-replace
-for `python_starter` and replace it with your project name.
+for `python_starter` and replace it with your project name. Also rename the
+`python_starter` directory to match.
 
 ## Setup
 
