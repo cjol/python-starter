@@ -40,3 +40,4 @@ jobs:
         with:
           pytest-coverage-path: ./pytest-coverage.txt
           junitxml-path: ./pytest.xml
+          github-token: ${{ secrets.PR_GITHUB_TOKEN }}
